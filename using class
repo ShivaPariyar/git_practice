@@ -1,0 +1,112 @@
+{
+  "nbformat": 4,
+  "nbformat_minor": 0,
+  "metadata": {
+    "colab": {
+      "name": "Untitled0.ipynb",
+      "provenance": [],
+      "authorship_tag": "ABX9TyPPZoxVtD4xPaVaSgw4/SkM",
+      "include_colab_link": true
+    },
+    "kernelspec": {
+      "name": "python3",
+      "display_name": "Python 3"
+    }
+  },
+  "cells": [
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "view-in-github",
+        "colab_type": "text"
+      },
+      "source": [
+        "<a href=\"https://colab.research.google.com/github/ShivaPariyar/git_practice/blob/master/using%20class\" target=\"_parent\"><img src=\"https://colab.research.google.com/assets/colab-badge.svg\" alt=\"Open In Colab\"/></a>"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "metadata": {
+        "id": "r7nGT3GAd87r",
+        "colab_type": "code",
+        "colab": {
+          "base_uri": "https://localhost:8080/",
+          "height": 68
+        },
+        "outputId": "c22c7269-d2c6-4601-9f53-c719f5770016"
+      },
+      "source": [
+        "class student():\n",
+        "  def __init__(self, nam, level, roll_no):\n",
+        "    self.name = nam\n",
+        "    self.level  = level\n",
+        "    self.roll = roll_no\n",
+        "\n",
+        "\n",
+        "obj_name = student(\"Shiva Pariyar\", \"Bachelor\", 554 )\n",
+        "\n",
+        "print(obj_name.name)\n",
+        "print(obj_name.level )\n",
+        "print(obj_name.roll)"
+      ],
+      "execution_count": 9,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "text": [
+            "Shiva Pariyar\n",
+            "Bachelor\n",
+            "554\n"
+          ],
+          "name": "stdout"
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "metadata": {
+        "id": "NhKsRBIkfKFa",
+        "colab_type": "code",
+        "colab": {
+          "base_uri": "https://localhost:8080/",
+          "height": 34
+        },
+        "outputId": "fc2ec77e-6ae5-49d2-f160-44b2d28e51e3"
+      },
+      "source": [
+        "class Maggi:\n",
+        "  def __init__(self, name, price):\n",
+        "    self.name = name\n",
+        "    self.price = price\n",
+        "\n",
+        "    set \n",
+        "\n",
+        "khaja = Maggi(\"Maggi\", 25)\n",
+        "print(khaja.name)"
+      ],
+      "execution_count": 11,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "text": [
+            "Maggi\n"
+          ],
+          "name": "stdout"
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "metadata": {
+        "id": "QBNxdg9bg0ya",
+        "colab_type": "code",
+        "colab": {}
+      },
+      "source": [
+        ""
+      ],
+      "execution_count": null,
+      "outputs": []
+    }
+  ]
+}
